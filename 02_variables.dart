@@ -4,7 +4,6 @@ void main() {
   final int hp = 100;
   final bool isAlive = true;
   final List<String> abilities = ['impostor'];
-  final List abilities2 = <String>['impostor'];
   final sprites = <String>['ditto/front.png','ditto/back.png'];
   
 // dynamic == null
@@ -20,7 +19,6 @@ void main() {
   $hp
   $isAlive
   $abilities
-  $abilities2
   $sprites
   $errorMessage
   """);
